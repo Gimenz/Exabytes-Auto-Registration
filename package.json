@@ -1,0 +1,36 @@
+{
+  "name": "exabytes-auto-registration",
+  "version": "1.0.0",
+  "description": "Auto registration Exabytes using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gimenz/Exabytes-Auto-Registration.git"
+  },
+  "keywords": [
+    "Automation",
+    "puppeteer",
+    "automation",
+    "auto",
+    "registration"
+  ],
+  "author": "Gimenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gimenz/Exabytes-Auto-Registration/issues"
+  },
+  "homepage": "https://github.com/Gimenz/Exabytes-Auto-Registration#readme",
+  "dependencies": {
+    "async-file": "^2.0.2",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "jsdom": "^16.6.0",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "readline-sync": "^1.4.10"
+  }
+}
