@@ -72,7 +72,7 @@ async function getToken() {
             const city = random.status ? random.result.address.state : readlineSync.question(chalk.blue("[*] City : "));
             const state = random.status ? random.result.address.state : readlineSync.question(chalk.blue("[*] State : "));
             const postCOde = random.status ? random.result.address.postal : readlineSync.question(chalk.blue("[*] Postal Code : "));
-            const nohape = '628523618' + Math.ceil(Math.random()*9999);
+            const nohape = '628523619' + Math.ceil(Math.random()*9999);
             const pw = 'gh0stP0W3R!';
             //const token = await getToken();
             console.log(chalk.yellow('[*] OK, data collected. Processing request...'));
